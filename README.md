@@ -1,5 +1,5 @@
 # Circular-Queue-using-linked-list
-## INtroduction
+## Introduction
 This project implements a Circular Queue using Linked List with HTML, CSS AND javaScript.
 
 ## Operations
