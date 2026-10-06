@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,12 +15,9 @@
     <div class="container">
 
         <h1>Circular Queue Using Linked List</h1>
-
-        <p class="subtitle">
-            Data Structure Project
-        </p>
-
-        <div class="input-section">
+        <p class="subtitle">Data Structure Project</p>
+        
+        <div class="controls">
 
             <input
                 type="number"
@@ -27,46 +25,35 @@
                 placeholder="Enter value"
             >
 
-            <button onclick="insertElement()">
-                Insert
-            </button>
+            <button onclick="insert()">Insert</button>
 
-            <button onclick="deleteElement()">
-                Delete
-            </button>
+            <button onclick="deleteNode()">Delete</button>
 
-            <button onclick="searchElement()">
-                Search
-            </button>
+            <button onclick="search()">Search</button>
 
-            <button onclick="displayQueue()">
-                Display
-            </button>
+            <button onclick="display()">Display</button>
 
-            <button onclick="clearQueue()">
-                Clear
-            </button>
+            <button onclick="clearQueue()">Clear</button>
 
         </div>
+        <div class="status">
 
-        <div class="info">
-
-            <p>
+            <div>
                 <strong>Front:</strong>
                 <span id="frontValue">-</span>
-            </p>
+            </div>
 
-            <p>
+            <div>
                 <strong>Rear:</strong>
                 <span id="rearValue">-</span>
-            </p>
+            </div>
 
         </div>
 
         <h2>Queue</h2>
 
-        <div id="queueDisplay" class="queue-display">
-            Queue is empty
+        <div id="queueContainer" class="queue-container">
+            <p class="empty">Queue is empty</p>
         </div>
 
         <div id="message" class="message">
@@ -78,4 +65,5 @@
     <script src="script.js"></script>
 
 </body>
+
 </html>
