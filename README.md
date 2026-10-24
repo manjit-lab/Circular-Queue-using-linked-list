@@ -1,4 +1,5 @@
-Circular Queue Using Linked List
+This project demonstrates
+CIRCULAR QUEUE  USING A LINKED LIST.
 
 Project By: Manjit Rabha
 
