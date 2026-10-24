@@ -39,6 +39,12 @@ The project uses a linked list where each node contains:
 
 The last node points to the first node, maintaining the circular structure.
 
+# 🌐 Live Demo
+
+Visit the live project:
+
+https://manjit-lab.github.io/Circular-Queue-using-linked-list/
+
 🚀 How to Run
 
 1. Download or clone this repository.
